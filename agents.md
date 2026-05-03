@@ -1,0 +1,32 @@
+# Project Notes
+
+## Overview
+
+This repository contains Zynq7020 / FPGA learning projects using Verilog, Vivado project files, constraints, and simulation testbenches.
+
+## Layout
+
+- `SELF/`: personal practice projects.
+- `ZDYZ/`: board/course practice projects.
+- `*/rtl/`: Verilog design source files.
+- `*/sim/tb/`: Verilog testbench source files.
+- `*/prj/*.xpr`: Vivado project files.
+- `*/prj/*.srcs/constrs_1/new/*.xdc`: Vivado constraint files.
+
+## Git Rules
+
+- Keep source files, constraints, project files, and documentation under version control.
+- Do not add Vivado or simulator generated outputs such as `*.runs/`, `*.cache/`, `*.hw/`, `*.sim/`, `.Xil/`, `sim/work/`, `*.bit`, `*.dcp`, `*.jou`, `*.log`, `*.pb`, `*.rpt`, `*.rpx`, and `*.wlf`.
+- The root `.gitignore` is intended to prevent new generated files from being added. It does not remove files already tracked by Git.
+- Before large refactors or destructive cleanup, make a Git commit first.
+
+## Useful Commands
+
+- Check repository state: `git status --short --branch`
+- Check remote URL: `git remote -v`
+- Verify ignored files: `git status --ignored --short`
+- Check one ignore rule: `git check-ignore -v <path>`
+
+## Build And Test
+
+There is no single root-level automated build or test command confirmed yet. Use the relevant Vivado `.xpr` project under each module's `prj/` directory and the testbench files under `sim/tb/`.

@@ -1,0 +1,53 @@
+# Vivado generated project data
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+**/.Xil/
+
+# Vivado generated files and reports
+*.bit
+*.bin
+*.bmm
+*.dcp
+*.hdf
+*.hwdef
+*.jou
+*.log
+*.ltx
+*.mcs
+*.pb
+*.rpt
+*.rpx
+*.str
+*.sysdef
+*.vdi
+*.vds
+*.wdb
+*.wdf
+*.xsa
+
+# ModelSim/Questa generated simulation data
+sim/work/
+**/sim/work/
+work/
+**/work/
+transcript
+vsim.wlf
+*.cr.mti
+*.mpf
+*.qdb
+*.qpg
+*.qtl
+*.wlf
+
+# Local editor, OS, and temporary files
+*.bak
+*.swp
+*.tmp
+*~
+.DS_Store
+Thumbs.db

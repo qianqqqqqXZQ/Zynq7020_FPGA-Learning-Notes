@@ -6,8 +6,8 @@ This repository contains Zynq7020 / FPGA learning projects using Verilog, Vivado
 
 ## Layout
 
-- `SELF/`: personal practice projects.
-- `ZDYZ/`: board/course practice projects.
+- `Homework/`: personal practice projects.
+- `Projects/`: board/course practice projects.
 - `*/rtl/`: Verilog design source files.
 - `*/sim/tb/`: Verilog testbench source files.
 - `*/prj/*.xpr`: Vivado project files.

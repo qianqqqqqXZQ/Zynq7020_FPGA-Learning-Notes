@@ -10,3 +10,12 @@
 - [x] Commit repository documentation and ignore-rule updates.
 - [x] Validate tracked files and ignored generated outputs.
 - [x] Push local `main` to GitHub.
+
+## Rename Top-Level Project Folders
+
+- [x] Create a backup commit before renaming folders.
+- [x] Rename old personal practice folder to `Homework/`.
+- [x] Rename old board/course practice folder to `Projects/`.
+- [x] Update Vivado project paths and repository notes.
+- [x] Validate Git tracking, ignore rules, and changed project files.
+- [ ] Commit and push the folder rename.

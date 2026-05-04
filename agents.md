@@ -19,6 +19,7 @@ This repository contains Zynq7020 / FPGA learning projects using Verilog, Vivado
 - Do not add Vivado or simulator generated outputs such as `*.runs/`, `*.cache/`, `*.hw/`, `*.sim/`, `.Xil/`, `sim/work/`, `*.bit`, `*.dcp`, `*.jou`, `*.log`, `*.pb`, `*.rpt`, `*.rpx`, and `*.wlf`.
 - The root `.gitignore` is intended to prevent new generated files from being added. It does not remove files already tracked by Git.
 - Before large refactors or destructive cleanup, make a Git commit first.
+- GitHub remote: `https://github.com/qianqqqqqXZQ/Zynq7020_FPGA-Learning-Notes.git`
 
 ## Useful Commands
 
@@ -26,6 +27,7 @@ This repository contains Zynq7020 / FPGA learning projects using Verilog, Vivado
 - Check remote URL: `git remote -v`
 - Verify ignored files: `git status --ignored --short`
 - Check one ignore rule: `git check-ignore -v <path>`
+- Push main branch: `git push -u origin main`
 
 ## Build And Test
 

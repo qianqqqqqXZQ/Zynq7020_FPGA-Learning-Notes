@@ -13,6 +13,7 @@
 *.bin
 *.bmm
 *.dcp
+dfx_runtime.txt
 *.hdf
 *.hwdef
 *.jou
@@ -29,6 +30,10 @@
 *.wdb
 *.wdf
 *.xsa
+webtalk*.jou
+webtalk*.log
+vivado*.jou
+vivado*.log
 
 # ModelSim/Questa generated simulation data
 sim/work/
@@ -44,8 +49,19 @@ vsim.wlf
 *.qtl
 *.wlf
 
+# Generic simulation waveforms and compiled outputs
+*.fst
+*.ghw
+*.lxt
+*.lxt2
+*.vcd
+*.vvp
+
 # Local editor, OS, and temporary files
+.idea/
+.vscode/
 *.bak
+*.lck
 *.swp
 *.tmp
 *~

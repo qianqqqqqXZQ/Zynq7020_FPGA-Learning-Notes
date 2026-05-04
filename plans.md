@@ -18,4 +18,4 @@
 - [x] Rename old board/course practice folder to `Projects/`.
 - [x] Update Vivado project paths and repository notes.
 - [x] Validate Git tracking, ignore rules, and changed project files.
-- [ ] Commit and push the folder rename.
+- [x] Commit and push the folder rename.

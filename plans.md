@@ -9,4 +9,4 @@
 - [x] Merge the existing remote `README.md` history into local `main`.
 - [x] Commit repository documentation and ignore-rule updates.
 - [x] Validate tracked files and ignored generated outputs.
-- [ ] Push local `main` to GitHub.
+- [x] Push local `main` to GitHub.

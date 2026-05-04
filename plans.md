@@ -8,5 +8,5 @@
 - [x] Expand ignore rules for Vivado, simulator, editor, and temporary generated files.
 - [x] Merge the existing remote `README.md` history into local `main`.
 - [x] Commit repository documentation and ignore-rule updates.
-- [ ] Validate tracked files and ignored generated outputs.
+- [x] Validate tracked files and ignored generated outputs.
 - [ ] Push local `main` to GitHub.

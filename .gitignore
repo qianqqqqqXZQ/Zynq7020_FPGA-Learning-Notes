@@ -78,6 +78,7 @@ vsim.wlf
 .DS_Store
 Thumbs.db
 
-# Do not commit local generated documentation/artifacts
-/docs/generated/*
-!/docs/generated/.gitkeep
+# Local agent workflow notes
+/plans.md
+/agents.md
+/docs/maintenance/

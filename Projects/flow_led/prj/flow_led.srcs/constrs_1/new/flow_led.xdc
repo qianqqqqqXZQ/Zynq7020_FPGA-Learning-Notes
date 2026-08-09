@@ -1,7 +1,7 @@
-#时序约束
+#鏃跺簭绾︽潫
 create_clock -period 20.000 -name sys_clk [get_ports sys_clk]
 
-#IO引脚约束
+#IO寮曡剼绾︽潫
 set_property PACKAGE_PIN U18 [get_ports sys_clk]
 set_property PACKAGE_PIN N16 [get_ports sys_rst_n]
 set_property IOSTANDARD LVCMOS33 [get_ports sys_clk]

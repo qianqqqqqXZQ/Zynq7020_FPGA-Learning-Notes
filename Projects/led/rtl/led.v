@@ -1,6 +1,6 @@
 module led(
-    input     key, //输入按键，默认为高电平
-    output    led  //输出LED，高电平
+    input     key, // Input key; active-high by default
+    output    led  // LED output; active-high
     );
 
 assign led = ~key;

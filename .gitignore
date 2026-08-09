@@ -5,8 +5,18 @@
 *.ip_user_files/
 *.runs/
 *.sim/
-.Xil/
 **/.Xil/
+**/xsim.dir/
+**/utils_1/
+
+# Generated files sometimes written beside a project
+dfx_runtime.txt
+*.str
+*.xpe
+*.wcfg
+*.pb
+*.jou
+*.log
 
 # Vivado generated files and reports
 *.bit
@@ -67,3 +77,7 @@ vsim.wlf
 *~
 .DS_Store
 Thumbs.db
+
+# Do not commit local generated documentation/artifacts
+/docs/generated/*
+!/docs/generated/.gitkeep

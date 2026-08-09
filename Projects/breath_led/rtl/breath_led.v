@@ -13,7 +13,7 @@ reg   [9:0]        cnt_2ms;
 reg   [9:0]        cnt_2s;
 reg                inc_dec_flag;
 
-//¼ÆÊýÆ÷¼ÆÊ±2us
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±2us
 always @(posedge sys_clk or negedge sys_rst_n) begin
     if(!sys_rst_n)
         cnt_2us <= 7'b0;
@@ -24,7 +24,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
 
 end
 
-//¼ÆÊýÆ÷¼ÆÊ±2ms
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±2ms
 always @(posedge sys_clk or negedge sys_rst_n) begin
     if(!sys_rst_n)
         cnt_2ms <= 10'b0;
@@ -37,7 +37,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
         cnt_2ms <= cnt_2ms;
 end
 
-//¼ÆÊýÆ÷¼ÆÊ±2s
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±2s
 always @(posedge sys_clk or negedge sys_rst_n) begin
     if(!sys_rst_n)
         cnt_2s <= 10'b0;
@@ -52,7 +52,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
         cnt_2s <= cnt_2s;
 end
 
-//ÁÁ¶ÈµÝÔö/µÝ¼õµÄ±êÖ¾
+//ï¿½ï¿½ï¿½Èµï¿½ï¿½ï¿½/ï¿½Ý¼ï¿½ï¿½Ä±ï¿½Ö¾
 always @(posedge sys_clk or negedge sys_rst_n) begin
     if(!sys_rst_n)
         inc_dec_flag <= 1'b0;
@@ -64,7 +64,7 @@ always @(posedge sys_clk or negedge sys_rst_n) begin
         inc_dec_flag <= inc_dec_flag;
 end
 
-//¿ØÖÆLEDµÆPWMÊä³ö
+//ï¿½ï¿½ï¿½ï¿½LEDï¿½ï¿½PWMï¿½ï¿½ï¿½
 always @(posedge sys_clk or negedge sys_rst_n) begin
     if(!sys_rst_n)
         led <= 1'b0;

@@ -1,5 +1,12 @@
 # Plans
 
+## Fix Projects/ip_2port_ram RTL Compile
+
+- [x] Inspect `Projects/ip_2port_ram` RTL, testbench, Vivado project files, and current Git state.
+- [x] Fix RTL syntax and signal connection errors that block compilation.
+- [x] Run available validation for the two-port RAM project.
+- [x] Review the changed code and update project notes if needed.
+
 ## Sync Local Projects To GitHub
 
 - [x] Confirm the current local Git state.

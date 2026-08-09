@@ -7,4 +7,4 @@
 - [x] Review retained RTL and fix the FIFO read-domain reset typo found during cleanup.
 - [ ] Review every retained Vivado project for stale generated checkpoint references.
 - [ ] Run the available XSim smoke test for `Projects/ip_2port_ram` after cleanup (tool exits before launch with Windows status `-1073741515`; RTL/XPR checks pass).
-- [ ] Commit the curated source set and documentation.
+- [x] Commit the curated source set and documentation (`e87cb6e`).
